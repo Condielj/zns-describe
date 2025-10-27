@@ -86,7 +86,7 @@ def get_output_file(
     input_file: Path, output_file: Optional[Union[str, Path]], overwrite_existing: bool
 ) -> Path:
     """
-    Determine's the output file name if not specified, otherwise checks if it exists and warns
+    Determines the output file name if not specified, otherwise checks if it exists and warns
     """
 
     # If you didn't specify an output file
